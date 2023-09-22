@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Table</title>
+    <link rel="stylesheet" href="/DemoJavaScript2023/css/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/DemoJavaScript2023/css/style.css">
+</head>
+<div class="login-container">
+<body>
+    <div class="login-container">
+        <div>
+            <h1>TRAVEL REQUESTOR </h1>
+            <button type="submit" id="logout">Log out</button><br>
+
+        </div>
+        <br><div class="nav-container">
+            <nav>
+                <ul>
+                    <li class="nav-item"><a href="/DemoJavaScript2023/pages/allAdmin.html">Pending</a></li>
+                    <li class="nav-item"><a href="#">All</a>
+                    <li class="nav-item"><a href="#">Approved</a></li>
+                    <li class="nav-item"><a href="#">Rejected</a></li>
+                    <li class="nav-item"><a href="#">OnHold</a></li>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Employee Name</th>
+                <th>Destination</th>
+                <th>Priority</th>
+                <th>View Details</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Donald</td>
+                <td>Las Vegas</td>
+                <td>Critical</td>
+                <td><a href="#">View more</a></td>
+                <td><label for="approval">Approve:</label>
+                    <select id="approval" name="approval">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="pending">Pending</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Aswathy</td>
+                <td>Delhi</td>
+                <td>Normal</td>
+                <td><a href="#">View more</a></td>
+                <td><label for="approval">Approve:</label>
+                    <select id="approval" name="approval">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="pending">Pending</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Franco</td>
+                <td>Kochi</td>
+                <td>Normal</td>
+                <td><a href="#">View more</a></td>
+                <td><label for="approval">Approve:</label>
+                    <select id="approval" name="approval">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="pending">Pending</option>
+                    </select></td>
+            </tr>
+            
+        </tbody>
+    </table>
+     <script src="/DemoJavaScript2023/js1/script2.js"></script>
+</body>
+</div>
+</html>
